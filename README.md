@@ -23,6 +23,20 @@ You can install NexusView easily via pip:
 pip install NexusView
 ```
 
+## How to install this package in your system
+
+```bash
+ conda create -n nexusview_env python=3.8 -y
+```
+
+```bash
+ conda activate nexusview_env
+```
+
+```bash
+pip install -r requirements_dev.txt
+```
+
 ## 🚀 Usage
 
 Using NexusView is incredibly straightforward. Import the package and call the render functions in your Jupyter Notebook cells.
